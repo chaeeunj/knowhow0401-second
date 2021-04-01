@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+.side-nav {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.main {
+    height: 1000px;
+    background-color: yellow;
+    margin-left: 250px;
+    background-image: url("bgelsa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
